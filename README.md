@@ -60,5 +60,5 @@
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/your-username/fairfare.git
+git clone https://github.com/khushia3/fairfare.git
 cd fairfare

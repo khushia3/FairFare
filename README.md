@@ -1,64 +1,25 @@
-# 💸 FairFare – AI-Powered Expense Splitting App
+# Full Stack AI Fairfare Clone with Next JS, Convex, Tailwind, Inngest, Shadcn UI Tutorial 🔥🔥
+## https://youtu.be/Ce7O3p7-YDI
 
-**FairFare** is a full-stack, AI-powered expense splitting application that simplifies shared expenses among groups like roommates, friends, or teams. It provides real-time syncing, secure user management, smart auto-suggestions, and an intuitive interface powered by modern technologies.
+![fairfare](https://github.com/user-attachments/assets/11e138c4-efcf-4a85-8586-f2993da118d8)
 
----
+### Make sure to create a `.env` file with following variables -
 
-## 🚀 Tech Stack
+```
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=
 
-### **Frontend**
-- ⚛️ **React 19**
-- ⚡️ **Next.js 15** (App Router, RSC, Streaming)
-- 🎨 **Tailwind CSS**
-- 🧱 **Shadcn/UI** (accessible UI components)
+NEXT_PUBLIC_CONVEX_URL=
 
-### **Backend & Infra**
-- 🔗 **Convex** (real-time database & serverless functions)
-- 🗄️ **Prisma ORM**
-- 🧠 **AI API** (e.g., OpenAI for intelligent expense parsing)
-- 🔐 **Clerk Authentication**
-- 📩 **Inngest** (background workflows & event queues)
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 
----
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-## ✨ Features
+CLERK_JWT_ISSUER_DOMAIN=
 
-- 🧠 **AI-powered smart splits**
-  - Auto-suggest fair expense distribution
-  - Contextual understanding of shared costs
+RESEND_API_KEY=
 
-- 👥 **User authentication with Clerk**
-  - Sign up, login, session handling
-  - OAuth & Email/Password support
-
-- 🧾 **Group and expense management**
-  - Create groups and add members
-  - Add, edit, and delete expenses
-  - Track balance sheets and debt summaries
-
-- 🔔 **Real-time updates via Convex**
-  - Instant sync of expenses and balances
-  - Background notifications (via Inngest)
-
-- 💡 **Beautiful, accessible UI with Shadcn/UI**
-  - Responsive layouts, dialogs, sheets, toasts, tooltips
-  - Built using Tailwind and Radix primitives
-
-- 📱 **Mobile-friendly interface**
-
----
-
-## 📸 Screenshots
-
-| Dashboard | Add Expense | Group Summary |
-|----------|-------------|----------------|
-| _Coming Soon_ | _Coming Soon_ | _Coming Soon_ |
-
----
-
-## ⚙️ Getting Started
-
-### 1. Clone the Repo
-```bash
-git clone https://github.com/khushia3/fairfare.git
-cd fairfare
+GEMINI_API_KEY=
+```
